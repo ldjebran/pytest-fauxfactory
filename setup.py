@@ -12,7 +12,7 @@ setup(
     keywords='pytest',
     url='https://github.com/omaciel/pytest-fauxfactory',
     py_modules=['pytest_fauxfactory'],
-    install_requires=['pytest>=3.2', 'fauxfactory'],
+    install_requires=['pytest>=3.2', 'fauxfactory', 'six'],
     extras_require={
         'dev': [
             'coveralls',
